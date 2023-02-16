@@ -87,3 +87,70 @@
 
 >>>>>>>>>Цитата
 
+
+
+
+===================
+
+## Ссылки
+
+=============
+
+[Переход на страницу](http://exampl.com/ "Отображается при наведении. Необязательная")
+
+а тут присваевается Id. Пока не понял зачем))
+
+[Example][]
+
+А вот [пример][1] [нескольких][2] [ссылок][id] с разметкой как у сносок. Прокатит и [короткая запись][] без указания id.
+
+[1]: http://example.com/ "Optional Title Here"
+[2]: http://example.com/some
+[id]: http://example.com/links (Optional Title Here)
+[короткая запись]: http://example.com/short
+
+___теперь понял)))___
+
+
+**И вот еще ```** 
+
+```html
+<nav class="nav nav-primary">
+  <ul>
+    <li class="tab-conversation active">
+      <a href="#" data-role="post-count" class="publisher-nav-color" data-nav="conversation">
+        <span class="comment-count">0 комментариев</span>
+        <span class="comment-count-placeholder">Комментарии</span>
+      </a>
+    </li>
+    <li class="dropdown user-menu" data-role="logout">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+        <span class="dropdown-toggle-wrapper">
+          <span>
+            Войти
+          </span>
+        </span>
+        <span class="caret"></span>
+      </a>
+    </li>
+  </ul>
+</nav>
+```
+
+=======================
+
+## Блоки ввода
+
+==============
+
+
+_первая часть текста_
+
+---
+
+_вторая часть текста_
+
+__или (***)__ 
+
+
+
