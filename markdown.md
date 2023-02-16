@@ -25,7 +25,7 @@
 
 Картинки-ссылки:
 
-[![Alt text](//placehold.it/150x100)](http://example.com/)
+[![Alt text](images1.jpg)](http://example.com/)
 
 [image1]: images3.jpg
 [image2]: images4.jpg
