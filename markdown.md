@@ -219,3 +219,7 @@ __git chekout "4 simbol of commit"__ - checkout yor commit
 **Существует 2 состояния:**
 1. modified file - *git add, git commit -am*
 2. untrucked file - *git add*
+
+
+## Заключение
+
