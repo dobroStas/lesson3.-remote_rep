@@ -153,5 +153,69 @@ _вторая часть текста_
 __или (***)__ 
 
 
+====================
+
+## Цитаты
+
+=============
+
+>Это пример цитат,
+
+>в которой перед каждой строкой
+
+>ставится угловая скобка.
+
+>Это пример цитаты,
+в котрой угловая скобка ставится только перед началом нового параграфа
+
+>Второй параграф.
+
+## Вложение цитаты в цитату:
+
+>Первый уровень цитирования
+>
+>>Второйуровень цитирования
+>>
+>>>Третий уровень цитирования
+>
+>Первый уровень цитирования
+
+_max = 15-й_
 
 
+## Команды
+
+**Задаем имя пользователя и имейл**
+
+**git config --global user.name "your name"** - make a record in config of your name.
+
+**git config --global user.emale "your email"** - make a record in config of your email.
+
+__git add .\git_commit.md = git add .__ - track all files.
+
+**git add file_name** - track a file name.
+
+**git commit -m "Massege"** - fix changes in our project.
+
+1. Добавляем файл
+2. Делаем изменения
+3. Трекаем файл
+4. Делаем комит
+
+**git commit -am "your_commit = git commit -m "your_commit" + git add .** - let us avoid using "git add" again.
+
+__git revert "4 simbol of commit"__ - откатить на предыдущий commit.
+
+__git chekout "4 simbol of commit"__ - checkout yor commit
+
+**cls = clear** - очистить терминал.
+
+**:wq** - consol of commit(or wQ)
+
+**git diff** - show the differences between actual state and last commit.
+
+======
+
+**Существует 2 состояния:**
+1. modified file - *git add, git commit -am*
+2. untrucked file - *git add*
